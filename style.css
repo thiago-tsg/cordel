@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /*text-transform: uppercase; tag para deixar as letras maiusculas*/ 
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;   
+}
+
+section{
+    padding: 10% 0 10% 30px;
+    line-height: 2em;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.img{
+    background-color: #00000043;
+    color: white;
+}
+
+section.img p {
+    background-color: #0000005c;
+    width: 500px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
