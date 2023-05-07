@@ -13,7 +13,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    test
 }
 
 html body{
@@ -53,23 +52,41 @@ a:hover{
 section{
     font-family: var(--fonte3);
     padding: 10% 0 10% 30px;
-    line-height: 2em;
     font-size: 4vw;
+    line-height: 2em;
 }
 
 section.normal{
     background-color: white;
 }
 
-section.img{
-    background-color: #00000043;
-    color: white;
+section p{
+    padding-bottom: 2em;
 }
 
 section.img p {
-    background-color: #0000005c; 
+    background-color: #00000024; 
     padding: 5px;
     display: inline-block;
+    text-shadow: 2px 2px 0 black;
+}
+
+section.img{
+    background-color: #000000;
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.54);
+    background-attachment: fixed;
+}
+
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer{
